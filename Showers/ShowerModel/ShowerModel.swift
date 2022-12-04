@@ -4,6 +4,7 @@
 //
 //  Created by Roja on 03/12/22.
 //
+//This class contains all Models
 
 import Foundation
 
