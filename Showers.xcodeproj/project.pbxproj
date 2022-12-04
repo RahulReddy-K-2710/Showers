@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F483EF88293AE1CC00B4DE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EF87293AE1CC00B4DE3D /* AppDelegate.swift */; };
+		F483EF8A293AE1CC00B4DE3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EF89293AE1CC00B4DE3D /* SceneDelegate.swift */; };
+		F483EF8C293AE1CC00B4DE3D /* ShowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EF8B293AE1CC00B4DE3D /* ShowerViewController.swift */; };
+		F483EF8F293AE1CC00B4DE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F483EF8D293AE1CC00B4DE3D /* Main.storyboard */; };
+		F483EF91293AE1D000B4DE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F483EF90293AE1D000B4DE3D /* Assets.xcassets */; };
+		F483EF94293AE1D000B4DE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F483EF92293AE1D000B4DE3D /* LaunchScreen.storyboard */; };
+		F483EF9D293AE6A000B4DE3D /* ShowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EF9C293AE6A000B4DE3D /* ShowerViewModel.swift */; };
+		F483EF9F293AE6BC00B4DE3D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EF9E293AE6BC00B4DE3D /* NetworkManager.swift */; };
+		F483EFA1293AE6D600B4DE3D /* ShowerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EFA0293AE6D600B4DE3D /* ShowerDataModel.swift */; };
+		F483EFA3293AE6E700B4DE3D /* ShowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483EFA2293AE6E700B4DE3D /* ShowerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F483EF84293AE1CC00B4DE3D /* Showers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Showers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F483EF87293AE1CC00B4DE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F483EF89293AE1CC00B4DE3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F483EF8B293AE1CC00B4DE3D /* ShowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerViewController.swift; sourceTree = "<group>"; };
+		F483EF8E293AE1CC00B4DE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F483EF90293AE1D000B4DE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F483EF93293AE1D000B4DE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F483EF95293AE1D000B4DE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F483EF9C293AE6A000B4DE3D /* ShowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerViewModel.swift; sourceTree = "<group>"; };
+		F483EF9E293AE6BC00B4DE3D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F483EFA0293AE6D600B4DE3D /* ShowerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerDataModel.swift; sourceTree = "<group>"; };
+		F483EFA2293AE6E700B4DE3D /* ShowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F483EF81293AE1CC00B4DE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F483EF7B293AE1CC00B4DE3D = {
+			isa = PBXGroup;
+			children = (
+				F483EF86293AE1CC00B4DE3D /* Showers */,
+				F483EF85293AE1CC00B4DE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F483EF85293AE1CC00B4DE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF84293AE1CC00B4DE3D /* Showers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F483EF86293AE1CC00B4DE3D /* Showers */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF9B293AE20F00B4DE3D /* App */,
+				F483EFA4293AE8AB00B4DE3D /* Controller */,
+				F483EFA5293AE8CD00B4DE3D /* ShowerViewModel */,
+				F483EFA6293AE8F300B4DE3D /* NetworkManager */,
+				F483EFA7293AE90400B4DE3D /* ShowerDataModel */,
+				F483EFA8293AE91400B4DE3D /* ShowerModel */,
+				F483EFA9293AE92D00B4DE3D /* View */,
+				F483EFAA293AE93700B4DE3D /* Resource */,
+				F483EF95293AE1D000B4DE3D /* Info.plist */,
+			);
+			path = Showers;
+			sourceTree = "<group>";
+		};
+		F483EF9B293AE20F00B4DE3D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF87293AE1CC00B4DE3D /* AppDelegate.swift */,
+				F483EF89293AE1CC00B4DE3D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F483EFA4293AE8AB00B4DE3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF8B293AE1CC00B4DE3D /* ShowerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F483EFA5293AE8CD00B4DE3D /* ShowerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF9C293AE6A000B4DE3D /* ShowerViewModel.swift */,
+			);
+			path = ShowerViewModel;
+			sourceTree = "<group>";
+		};
+		F483EFA6293AE8F300B4DE3D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF9E293AE6BC00B4DE3D /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F483EFA7293AE90400B4DE3D /* ShowerDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F483EFA0293AE6D600B4DE3D /* ShowerDataModel.swift */,
+			);
+			path = ShowerDataModel;
+			sourceTree = "<group>";
+		};
+		F483EFA8293AE91400B4DE3D /* ShowerModel */ = {
+			isa = PBXGroup;
+			children = (
+				F483EFA2293AE6E700B4DE3D /* ShowerModel.swift */,
+			);
+			path = ShowerModel;
+			sourceTree = "<group>";
+		};
+		F483EFA9293AE92D00B4DE3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF8D293AE1CC00B4DE3D /* Main.storyboard */,
+				F483EF92293AE1D000B4DE3D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F483EFAA293AE93700B4DE3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F483EF90293AE1D000B4DE3D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F483EF83293AE1CC00B4DE3D /* Showers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F483EF98293AE1D000B4DE3D /* Build configuration list for PBXNativeTarget "Showers" */;
+			buildPhases = (
+				F483EF80293AE1CC00B4DE3D /* Sources */,
+				F483EF81293AE1CC00B4DE3D /* Frameworks */,
+				F483EF82293AE1CC00B4DE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Showers;
+			productName = Showers;
+			productReference = F483EF84293AE1CC00B4DE3D /* Showers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F483EF7C293AE1CC00B4DE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F483EF83293AE1CC00B4DE3D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F483EF7F293AE1CC00B4DE3D /* Build configuration list for PBXProject "Showers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F483EF7B293AE1CC00B4DE3D;
+			productRefGroup = F483EF85293AE1CC00B4DE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F483EF83293AE1CC00B4DE3D /* Showers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F483EF82293AE1CC00B4DE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F483EF94293AE1D000B4DE3D /* LaunchScreen.storyboard in Resources */,
+				F483EF91293AE1D000B4DE3D /* Assets.xcassets in Resources */,
+				F483EF8F293AE1CC00B4DE3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F483EF80293AE1CC00B4DE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F483EF9D293AE6A000B4DE3D /* ShowerViewModel.swift in Sources */,
+				F483EFA1293AE6D600B4DE3D /* ShowerDataModel.swift in Sources */,
+				F483EF8C293AE1CC00B4DE3D /* ShowerViewController.swift in Sources */,
+				F483EF9F293AE6BC00B4DE3D /* NetworkManager.swift in Sources */,
+				F483EF88293AE1CC00B4DE3D /* AppDelegate.swift in Sources */,
+				F483EF8A293AE1CC00B4DE3D /* SceneDelegate.swift in Sources */,
+				F483EFA3293AE6E700B4DE3D /* ShowerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F483EF8D293AE1CC00B4DE3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F483EF8E293AE1CC00B4DE3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F483EF92293AE1D000B4DE3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F483EF93293AE1D000B4DE3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F483EF96293AE1D000B4DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F483EF97293AE1D000B4DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F483EF99293AE1D000B4DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Showers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Showers;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.test.Showers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F483EF9A293AE1D000B4DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Showers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Showers;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.test.Showers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F483EF7F293AE1CC00B4DE3D /* Build configuration list for PBXProject "Showers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F483EF96293AE1D000B4DE3D /* Debug */,
+				F483EF97293AE1D000B4DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F483EF98293AE1D000B4DE3D /* Build configuration list for PBXNativeTarget "Showers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F483EF99293AE1D000B4DE3D /* Debug */,
+				F483EF9A293AE1D000B4DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F483EF7C293AE1CC00B4DE3D /* Project object */;
+}
